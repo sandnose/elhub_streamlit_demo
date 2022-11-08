@@ -37,7 +37,7 @@ add_sidebar = st.sidebar.selectbox('En random meny', ('Valg1', 'Valg2'))
 
 if add_sidebar == 'Valg1':
     st.write('Her vil informasjon tilhørende valg1 være')
-    st.write('Hello, *World!* :sunglasses:')
+    st.write('*Total produksjon pr MBA* :sunglasses:')
     st.plotly_chart(fig_area, use_container_width=True)
 
 if add_sidebar == 'Valg2':
