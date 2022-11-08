@@ -19,7 +19,7 @@ st.set_page_config(layout='wide')
 @st.cache
 def load_data():
     ''' Add as many sources as you want '''
-    df = pd.read_excel('Streamlit\Daglig-produksjon-pr-gruppe-og-prisomrade-MWh.xlsx', skiprows=[0])
+    df = pd.read_excel('Daglig-produksjon-pr-gruppe-og-prisomrade-MWh.xlsx', skiprows=[0])
     return df
 
 df = load_data()
